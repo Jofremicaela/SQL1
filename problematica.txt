@@ -1,0 +1,14 @@
+Un negocio dedicado a la venta de repuestos para motos nos pidieron un sistema para poder llevar la lista
+de artículos y sus proveedores. La información mínima solicitada es la siguiente Código de artículo, marca
+moto, modelo, su origen (nacional o importada), descripción, precio de venta, fecha ultima compra,
+cantidad comprada, precio unitario de compra, Código del proveedor, denominación, domicilio, teléfono.
+Nota : Un artículo puede ser provisto por más de un proveedor.
+Para este caso no se necesita gestionar la facturación.
+Se pide:
+*Obtener el modelo conceptual (D.E.R.) y físico con tablas normalizadas, en 3FN 
+* Marcar las claves primarias de cada tabla 
+*Indicar la estructura de cada tabla tipos de datos y tamaño 
+* Poblar (cargar tablas) las tablas con información usando sentencias SQL 
+Escribir las sentencias SQL necesarias para cumplir las siguientes necesidades de información:
+*Obtener la cantidad y precio promedio de los repuestos importados por proveedor. 
+*Hacer un ranking de precios de ventas según la marca y modelo de la moto. 
