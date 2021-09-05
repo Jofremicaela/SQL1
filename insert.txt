@@ -1,0 +1,98 @@
+INSERT INTO localidad(cod_pos,desc_localidad)
+VALUES('1888', 'florencio varela');
+
+INSERT into domicilio(cod_dom,cod_pos,calle_dom,altura_dom,piso_dom)
+VALUES ('1','1888','700 y hudson','1300','9b');
+
+insert INTO marca_moto(cod_marca,desc_marca)
+values('1','honda');
+
+insert INTO origen(cod_origen,desc_origen)
+values('i','importado');
+
+INSERT INTO articulos(cod_art,cod_origen,desc_art,stock_art,precio_vnta_art)
+values('1','i','tuercas para ruedas','3000','150,00');
+
+insert into modelo_moto(cod_mod,cod_marca,cod_origen,desc_mod)
+values('1','1','i','fk98');
+
+insert INTO proveedores(cod_prov,cod_art,nombre_prov,denominacion_prov,telefono_prov,cod_dom)
+values('1','1','roberto','tuercas','43223344','1');
+
+insert INTO compras(cod_comp,cod_prov,cod_art,cant_comp,precio_unit_comp,fecha_ult_comp)
+values('1','1','1','3000','70,00','2021-05-05');
+------------------------------------------------------------------------------------------
+INSERT INTO localidad(cod_pos,desc_localidad)
+VALUES('1872', 'sarandi');
+
+INSERT into domicilio(cod_dom,cod_pos,calle_dom,altura_dom,piso_dom)
+VALUES ('2','1872','mitre','1900','0');
+
+insert INTO marca_moto(cod_marca,desc_marca)
+values('2','toyota');
+
+insert INTO origen(cod_origen,desc_origen)
+values('n','nacional');
+
+INSERT INTO articulos(cod_art,cod_origen,desc_art,stock_art,precio_vnta_art)
+values('2','n','ruedas','5000','9000,00');
+
+insert into modelo_moto(cod_mod,cod_marca,cod_origen,desc_mod)
+values('2','2','n','ll198');
+
+insert INTO proveedores(cod_prov,cod_art,nombre_prov,denominacion_prov,telefono_prov,cod_dom)
+values('2','2','juan','ruedas','87659933','2');
+
+insert INTO compras(cod_comp,cod_prov,cod_art,cant_comp,precio_unit_comp,fecha_ult_comp)
+values('2','2','2','7000','5000,00','2021-03-17');
+-----------------------------------------------------------------------------------------
+INSERT INTO localidad(cod_pos,desc_localidad)
+VALUES('1900', 'la plata');
+
+INSERT into domicilio(cod_dom,cod_pos,calle_dom,altura_dom,piso_dom)
+VALUES ('3','1900','calle 55','1730','10a');
+
+insert INTO marca_moto(cod_marca,desc_marca)
+values('3','peugeot');
+
+INSERT INTO articulos(cod_art,cod_origen,desc_art,stock_art,precio_vnta_art)
+values('3','i','carburador','6500','4500,00');
+
+insert into modelo_moto(cod_mod,cod_marca,cod_origen,desc_mod)
+values('3','3','i','kjnb899');
+
+insert INTO proveedores(cod_prov,cod_art,nombre_prov,denominacion_prov,telefono_prov,cod_dom)
+values('3','3','Patricia','carburadores','1598444567','3');
+
+insert INTO compras(cod_comp,cod_prov,cod_art,cant_comp,precio_unit_comp,fecha_ult_comp)
+values('3','3','3','9000','8000,00','2021-01-22');
+
+---------------------------------------------------------------------------------------
+INSERT INTO localidad(cod_pos,desc_localidad)
+VALUES('1771', 'tapiales');
+
+INSERT into domicilio(cod_dom,cod_pos,calle_dom,altura_dom,piso_dom)
+VALUES ('4','1771','de la poda','2050','');
+
+insert INTO marca_moto(cod_marca,desc_marca)
+values('4','fiat');
+
+INSERT INTO articulos(cod_art,cod_origen,desc_art,stock_art,precio_vnta_art)
+values('4','n','manubrio','10000','5000');
+
+insert into modelo_moto(cod_mod,cod_marca,cod_origen,desc_mod)
+values('4','4','n','999kjd');
+
+insert INTO proveedores(cod_prov,cod_art,nombre_prov,denominacion_prov,telefono_prov,cod_dom)
+values('4','4','Rosario','manubrios','157776533','4');
+
+insert INTO compras(cod_comp,cod_prov,cod_art,cant_comp,precio_unit_comp,fecha_ult_comp)
+values('4','4','4','11000','2000','2021-02-10');
+-------------------------------------------------------------------------------------
+insert into art_modelo(cod_mod,cod_art)
+values('1','1');
+insert into art_modelo(cod_mod,cod_art)
+values('2','2');
+insert into art_modelo(cod_mod,cod_art)
+values('3','3');
+
